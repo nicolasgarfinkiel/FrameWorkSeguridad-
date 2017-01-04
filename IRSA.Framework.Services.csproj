@@ -1,0 +1,850 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{F0FEBD62-68CC-4AE2-B712-54C946ABB00E}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "IRSA.Framework.Services"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "IRSA.Framework.Services"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "IRSA.Framework"
+                    Project = "{1E5101FC-D8B2-4F75-8019-4F36BA8055DF}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "IRSA.Framework.Services.Web.UI"
+                    Project = "{DEC4CECF-F010-4D77-97AA-F4EA99944EF2}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "IRSA.Framework.Web.UI"
+                    Project = "{88A1D31D-4D4D-4509-81B4-492E71ECC539}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "IRSA.Framework.Security.Providers.SqlServer"
+                    Project = "{657FF65B-FEC8-468A-9CC0-35BD07C37A9E}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "IRSA.Framework.Data.SqlClient"
+                    Project = "{07C1774D-0A60-4ECB-965D-5CF64DDBBB3E}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "IRSA.Framework.Logging.Providers.EntLib"
+                    Project = "{8CE74C86-7978-436B-B907-8F4BA1F19BDD}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "IRSA.Framework.Security.UserData.Providers.ActiveDirectory"
+                    Project = "{81949101-3959-46D0-AD37-ABCD57911A22}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dataconfiguration.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dialog.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "dialog.aspx.cs"
+                    DependentUpon = "dialog.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dialog.aspx.resx"
+                    DependentUpon = "dialog.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "loggingconfiguration.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "loggingdistributorconfiguration.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "main.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Message.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Message.aspx.cs"
+                    DependentUpon = "Message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Message.aspx.resx"
+                    DependentUpon = "Message.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "start.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "start.aspx.cs"
+                    DependentUpon = "start.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "start.aspx.resx"
+                    DependentUpon = "start.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "tabs.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebUIConfig.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Applications.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Applications.aspx.cs"
+                    DependentUpon = "Applications.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Applications.aspx.resx"
+                    DependentUpon = "Applications.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Groups.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Groups.aspx.cs"
+                    DependentUpon = "Groups.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Groups.aspx.resx"
+                    DependentUpon = "Groups.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Params.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Params.aspx.cs"
+                    DependentUpon = "Params.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Params.aspx.resx"
+                    DependentUpon = "Params.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Permissions.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Permissions.aspx.cs"
+                    DependentUpon = "Permissions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Permissions.aspx.resx"
+                    DependentUpon = "Permissions.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Users.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Users.aspx.cs"
+                    DependentUpon = "Users.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Users.aspx.resx"
+                    DependentUpon = "Users.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\UsersGroups.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\UsersGroups.aspx.cs"
+                    DependentUpon = "UsersGroups.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\UsersGroups.aspx.resx"
+                    DependentUpon = "UsersGroups.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\CrearParametro.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\CrearParametro.aspx.cs"
+                    DependentUpon = "CrearParametro.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\CrearParametro.aspx.resx"
+                    DependentUpon = "CrearParametro.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SeleccionarGrupo.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SeleccionarGrupo.aspx.cs"
+                    DependentUpon = "SeleccionarGrupo.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SeleccionarGrupo.aspx.resx"
+                    DependentUpon = "SeleccionarGrupo.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SeleccionarPermiso.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SeleccionarPermiso.aspx.cs"
+                    DependentUpon = "SeleccionarPermiso.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SeleccionarPermiso.aspx.resx"
+                    DependentUpon = "SeleccionarPermiso.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SetearParametro.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SetearParametro.aspx.cs"
+                    DependentUpon = "SetearParametro.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Dialogs\SetearParametro.aspx.resx"
+                    DependentUpon = "SetearParametro.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\accessdenied.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\background.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logos.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\table_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\table_dk_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\title.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\button_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\button_bg_over.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\doc_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\grid_cell_bg_i1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\grid_cell_bg_i2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\grid_cell_bg_p1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\grid_cell_bg_p2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\grid_cell_bg_selected.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\label_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_border_bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_border_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_border_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_border_top.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_item_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_item_bg_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_item_bg_rigth.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menu_ornament.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menuitem_button_down.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\menuitem_button_up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\statusbar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\statusbar_bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\statusbar_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\statusbar_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\statusbar_top.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\table_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\table_grid_column_header_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\table_grid_foot_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\table_grid_head_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\table_head_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\title.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\title_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\title_bg_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fallout\title_bg_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_add.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_alert.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_alert_no.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_alert_ok.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_cancel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_disable.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_enable.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_ok.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_pick.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_remove.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_save.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_search.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_select.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_small_calendar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_small_new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_tbl_contract.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_tbl_expand.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\icon_user.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tabs\l_s.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tabs\l_u.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tabs\m_s_u.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tabs\m_u_s.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tabs\m_u_u.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tabs\r_s.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tabs\r_u.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\getScript.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\getScript.aspx.cs"
+                    DependentUpon = "getScript.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "java\getScript.aspx.resx"
+                    DependentUpon = "getScript.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "java\collections\ArrayList.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\collections\Dictionary.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\model\Point.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\model\VentasMessage.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\DialogOpener.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\Page.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\CollapsableTable.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\Control.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\CustomCombo.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\DateSelector.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\LinkButton.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\NumericBox.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\RequiredBox.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\RequiredCombo.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\StatusBar.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\TabContainer.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\TabStrip.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\TabStripButton.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\TreeNav.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\ValidatedControl.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\ajax\AJAXControl.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\ajax\GrillaDeCarga.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\ajax\TaskCount.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\ajax\UserLabel.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\jscalendar\calendar.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\jscalendar\calendar-lang.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\jscalendar\calendar-setup.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\ui\controls\jscalendar\theme.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\util\Format.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\xml\AJAXConnection.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "java\xml\AJAXConnectionManager.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebServices\SecurityProvider.asmx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebServices\SecurityProvider.asmx.cs"
+                    DependentUpon = "SecurityProvider.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebServices\SecurityProvider.asmx.resx"
+                    DependentUpon = "SecurityProvider.asmx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

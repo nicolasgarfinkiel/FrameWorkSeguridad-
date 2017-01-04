@@ -1,0 +1,346 @@
+a{
+color:#666A80;
+}
+a:hover{
+color:#172972;
+line-break:normal;
+white-space:nowrap;
+}
+a.menuitem{
+background:#CCD5FF;
+border-bottom:1px solid #B8BFE5;
+margin:0px;
+padding:1px 4px 1px 8px;
+text-decoration:none;
+width:100%;
+}
+a.menuitem:hover{
+background:#E5EAFF;
+}
+a.menuitem:active,a.menuitem:focus{
+background:#D9DFFF;
+}
+body{
+background-color:#F2F4FF;
+background-image:url(images/background.gif);
+color:#3D404D;
+font-family:Arial,Helvetica,sans-serif;
+font-size:9pt;
+margin:0px;
+scrollbar-3dlight-color:#666A80;
+scrollbar-arrow-color:#666A80;
+scrollbar-base-color:#D9DFFF;
+scrollbar-darkshadow-color:#666A80;
+scrollbar-face-color:#D9DFFF;
+scrollbar-highlight-color:#D9DFFF;
+scrollbar-shadow-color:#D9DFFF;
+scrollbar-track-color:#B8BFE5;
+}
+form{
+margin:0px;
+padding:0px;
+}
+hr{
+color:#A3AACC;
+height:1px;
+line-height:3px;
+margin:0px;
+padding:0px;
+}
+small{
+color:#525566;
+font-size:10px;
+}
+table{
+border-collapse:collapse;
+font-size:9pt;
+}
+table.grid{
+background-color:#E5EAFF;
+border:1px solid #7A8099;
+}
+table.grid .selected td{
+background-color:#EADAFA !important;
+border-bottom:1px solid #C0A5DA;
+border-top:1px solid #C0A5DA;
+color:#1C1E24;
+}
+table.grid .selected td a,table.grid .selected td a:hover{
+color:#1C1E24;
+cursor:default;
+}
+table.grid td,table.grid th{
+margin:0px;
+padding:2px;
+}
+table.grid td.colimpar{
+background-color:#F2F4FF;
+}
+table.grid td.colimpar2{
+background-color:#E5EAFF;
+}
+table.grid td.colpar{
+background-color:#E5EAFF;
+}
+table.grid td.colpar2{
+background-color:#D9DFFF;
+}
+table.grid td.footer,table.grid tfoot td,table.grid tr.footer td{
+background-color:#B8BFE5;
+background-image:url(images/table_bg.gif);
+border-top:1px solid #A3AACC;
+}
+table.grid td.rowcaption{
+background-color:#B8BFE5;
+background-image:url(images/table_bg.gif);
+border-bottom:1px solid #A3AACC;
+border-right:1px solid #A3AACC;
+}
+table.grid td.rowcaptionsmall{
+background-color:#B8BFE5;
+background-image:url(images/table_bg.gif);
+border-bottom:1px solid #A3AACC;
+border-right:1px solid #A3AACC;
+font-size:11px;
+font-weight:bold;
+padding:1px 2px 1px 2px;
+text-align:center;
+}
+table.grid th,table.grid tr.header td{
+background-color:#CCD5FF !important;
+background-image:none;
+border-bottom:1px solid #A3AACC !important;
+border-right:1px solid #A3AACC !important;
+font-weight:bold;
+height:18px;
+}
+table.grid th.caption,table.grid td.caption{
+background-color:#8F95B3;
+background-image:url(images/table_dk_bg.gif);
+border-bottom:0px none;
+border-right:1px solid #A3AACC;
+color:#F2F4FF;
+font-weight:bold;
+height:18px;
+text-align:center;
+}
+table.header{
+background-image:url(images/head_bg.gif);
+}
+table.header td{
+margin:0px;
+padding:0px;
+}
+table.menu{
+background:#E5EAFF;
+border:1px solid #525566;
+height:100%;
+width:120px;
+}
+table.outer{
+border:0px none;
+height:100%;
+margin:0px;
+padding:0px;
+width:100%;
+}
+table.statusbar{
+background:#B8BFE5;
+background-image:url(images/table_bg.gif);
+border:1px solid #525566;
+height:20px;
+width:100%;
+}
+table.statusbar td{
+padding:0px 4px 0px 4px;
+}
+table.topbar{
+background-color:#B8BFE5;
+background-image:url(images/table_bg.gif);
+border:1px solid #525566;
+height:40px;
+width:100%;
+}
+table.window{
+background-color:#B8BFE5;
+background-image:url(images/table_bg.gif);
+border:1px solid #3D404D;
+}
+table.window td{
+padding:2px;
+}
+table.window thead,
+table.window th{
+background-color:#E5EAFF;
+height:18px;
+}
+table.window tr.footer td,table.window tfoot td{
+border-top:1px solid #666A80;
+padding-top:2px !important;
+}
+table.window tr.remark{
+background-color:#CCD5FF;
+}
+td.frmmaincontainer{
+height:100%;
+padding:1px 2px 1px 1px;
+width:100%;
+}
+td.menucontainer{
+height:100%;
+padding:1px 1px 1px 2px;
+width:123px;
+}
+td.statusbarcontainer{
+height:23px;
+padding:1px 2px 2px 2px;
+width:100%;
+}
+td.topbarcontainer{
+height:56px;
+padding:0px;
+width:100%;
+}
+.box{
+background-color:#F2F4FF;
+border:1px solid #666A80;
+color:#3D404D;
+font-family:Arial,Helvetica,sans-serif;
+font-size:9pt;
+padding:1px 2px 1px 2px;
+}
+.box_disabled{
+background-color:#CCD5FF;
+border:1px solid #A3AACC;
+color:#172972;
+font-family:Arial,Helvetica,sans-serif;
+font-size:9pt;
+padding:1px 2px 1px 2px;
+}
+.box_erroneous{
+background:#F5EDFB;
+border:1px solid #C0A5DA;
+color:#172972;
+font-family:Arial,Helvetica,sans-serif;
+font-size:9pt;
+padding:1px 2px 1px 2px;
+}
+.button{
+background-color:#CCD5FF;
+border:1px solid #666A80;
+color:#3D404D;
+font-family:Arial,Helvetica,sans-serif;
+font-size:9pt;
+padding:2px 3px 1px 3px;
+text-align:center;
+text-decoration:none;
+}
+.button img{
+border:0px;
+margin-right:2px;
+vertical-align:text-top;
+}
+.button:hover{
+background-color:#EADAFA;
+color:#1C1E24;
+}
+.clickleable{
+cursor:hand;
+}
+.color01{
+color:#3D404D;
+}
+.color02{
+color:#525566;
+}
+.color03{
+color:#666A80;
+}
+.color04{
+color:#7A8099;
+}
+.color05{
+color:#8F95B3;
+}
+.color06{
+color:#A3AACC;
+}
+.color07{
+color:#B8BFE5;
+}
+.color08{
+color:#CCD5FF;
+}
+.color09{
+color:#D9DFFF;
+}
+.color10{
+color:#E5EAFF;
+}
+.color11{
+color:#F2F4FF;
+}
+.color12{
+color:#EADAFA;
+}
+.color13{
+color:#C0A5DA;
+}
+.color14{
+color:#1C1E24;
+}
+.color15{
+color:#F5EDFB;
+}
+.iconlink img{
+filter:alpha(opacity=30);
+border: 0px none;
+}
+.iconlink:hover img{
+filter:alpha(opacity=100);
+}
+.label{
+cursor:default;
+padding-left:4px;
+padding-right:4px;
+}
+.menucaption{
+background:#B8BFE5;
+background-image:url(images/table_bg.gif);
+border-bottom:1px solid #8F95B3;
+cursor:default;
+margin:0px;
+padding:1px 4px 1px 4px;
+width:100%;
+}
+.nopadding{
+padding:0px !important;
+}
+.smalllabel{
+color:#525566;
+cursor:default;
+font-size:10px;
+font-variant:normal;
+padding-left:4px;
+padding-right:4px;
+}
+#frmmain{
+border:0px;
+border:1px solid #525566;
+height:100%;
+margin:0px;
+padding:0px;
+width:100%;
+}
+#lblpagetitle{
+color:#525566;
+cursor:default;
+font-size:12px;
+font-variant:small-caps;
+font-weight:bold;
+margin-left:5px;
+text-transform:capitalize;
+}
+#lblusername{
+cursor:default;
+}

@@ -1,0 +1,77 @@
+8
+
+dir
+4576
+http://srv-ms6-adm:9999/svn/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/java/ui/controls/ajax
+http://srv-ms6-adm:9999/svn
+
+
+
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+
+svn:special svn:externals svn:needs-lock
+
+AJAXControl.js
+file
+
+
+
+
+2006-08-22T16:38:46.917697Z
+fd614df89b9c1155e9574bba58ce623b
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+vssver.scc
+file
+
+
+
+
+2006-08-22T16:38:46.933322Z
+944895ef544c04781980c5bdde78890f
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+TaskCount.js
+file
+
+
+
+
+2006-08-22T16:38:46.917697Z
+8e1cebfc98c088fb1ed0066e9f15ff59
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+UserLabel.js
+file
+
+
+
+
+2006-08-22T16:38:46.933322Z
+b5ba94603e8a2424d717d2bd8bffd635
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+GrillaDeCarga.js
+file
+
+
+
+
+2006-08-22T16:38:46.917697Z
+54c97a22e7de66edd9e7870c830f95ab
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+

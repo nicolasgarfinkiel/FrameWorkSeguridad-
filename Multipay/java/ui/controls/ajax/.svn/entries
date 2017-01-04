@@ -1,0 +1,64 @@
+8
+
+dir
+4576
+http://srv-ms6-adm:9999/svn/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/Multipay/java/ui/controls/ajax
+http://srv-ms6-adm:9999/svn
+
+
+
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+
+svn:special svn:externals svn:needs-lock
+
+AJAXControl.js
+file
+
+
+
+
+2006-08-25T18:29:30.000000Z
+fd614df89b9c1155e9574bba58ce623b
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+TaskCount.js
+file
+
+
+
+
+2006-08-25T18:29:30.000000Z
+8e1cebfc98c088fb1ed0066e9f15ff59
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+UserLabel.js
+file
+
+
+
+
+2006-08-25T18:29:30.000000Z
+b5ba94603e8a2424d717d2bd8bffd635
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+GrillaDeCarga.js
+file
+
+
+
+
+2006-08-25T18:29:30.000000Z
+54c97a22e7de66edd9e7870c830f95ab
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+

@@ -1,0 +1,129 @@
+8
+
+dir
+4576
+http://srv-ms6-adm:9999/svn/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/images
+http://srv-ms6-adm:9999/svn
+
+
+
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+
+svn:special svn:externals svn:needs-lock
+
+logo.jpg
+file
+
+
+
+
+2006-08-28T14:03:35.173391Z
+1ad9291ed053e40923db68d14de0c375
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+table_dk_bg.gif
+file
+
+
+
+
+2006-08-10T15:14:28.034877Z
+1ff69bf41b9a8f96b08a8b970ee1832c
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+background.gif
+file
+
+
+
+
+2006-08-10T15:14:28.034877Z
+7ff77a22a8c54e04d62875002d19bf85
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+table_bg.gif
+file
+
+
+
+
+2006-08-10T15:14:28.034877Z
+ee32878b57d3c8cf20258d910a8854b5
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+title.gif
+file
+
+
+
+
+2006-08-28T14:03:31.267066Z
+5a31ebc89217558c5007db0c0ff9282b
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+fallout
+dir
+
+logos.gif
+file
+
+
+
+
+2006-08-10T15:14:28.034877Z
+238bbe6754f0cc36a91e5b3112908d3f
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+tabs
+dir
+
+icons
+dir
+
+error.gif
+file
+
+
+
+
+2006-08-28T14:03:31.267066Z
+c776dbfa5f5dae12930074cda7fd1cb2
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+
+accessdenied.gif
+file
+
+
+
+
+2006-08-28T14:03:31.251441Z
+213765662195dd70149773652f4cb16a
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+has-props
+

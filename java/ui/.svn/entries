@@ -1,0 +1,67 @@
+8
+
+dir
+4576
+http://srv-ms6-adm:9999/svn/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/java/ui
+http://srv-ms6-adm:9999/svn
+
+
+
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+
+svn:special svn:externals svn:needs-lock
+
+vssver.scc
+file
+4577
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+controls
+dir
+
+DialogOpener.js
+file
+
+
+
+
+2006-03-05T14:52:04.927404Z
+b1e8522cfb57fdcafaeea908435ca5a0
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+Page.js
+file
+
+
+
+
+2006-08-24T16:34:58.491660Z
+5b23e54ebeebf962ce7608fe9a69f95a
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+

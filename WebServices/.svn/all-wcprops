@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4552/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/WebServices
+END
+SecurityProvider.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/4552/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/WebServices/SecurityProvider.asmx
+END
+SecurityProvider.asmx.resx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4552/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/WebServices/SecurityProvider.asmx.resx
+END
+SecurityProvider.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4988/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/WebServices/SecurityProvider.asmx.cs
+END

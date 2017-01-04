@@ -1,0 +1,91 @@
+8
+
+dir
+4576
+http://srv-ms6-adm:9999/svn/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/java
+http://srv-ms6-adm:9999/svn
+
+
+
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+
+svn:special svn:externals svn:needs-lock
+
+vssver.scc
+file
+4577
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+model
+dir
+
+xml
+dir
+
+getScript.aspx.cs
+file
+
+
+
+
+2006-08-23T22:59:19.503506Z
+c71fbeec373dcf7724bd9d5f41a49363
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+ui
+dir
+
+util
+dir
+
+collections
+dir
+
+getScript.aspx
+file
+
+
+
+
+2006-08-10T15:14:28.081753Z
+27d19ccbf0994ebf8fc34759f5faf4f1
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+
+getScript.aspx.resx
+file
+
+
+
+
+2006-08-10T15:14:28.097378Z
+2507ff9fa18371b68db0ec40e5b2c52e
+2008-08-11T21:16:15.635936Z
+4553
+mferrari
+

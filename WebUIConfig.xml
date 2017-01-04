@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WebUIConfig>
+	<DefaultCssFile>/main.css</DefaultCssFile>
+	<DefaultJSIncludes>
+		<JSInclude>/java/model/Point.js</JSInclude>
+		<JSInclude>/java/collections/Dictionary.js</JSInclude>
+		<JSInclude>/java/collections/ArrayList.js</JSInclude>
+		<JSInclude>/java/xml/AJAXConnection.js</JSInclude>
+		<JSInclude>/java/xml/AJAXConnectionManager.js</JSInclude>
+		<JSInclude>/java/ui/DialogOpener.js</JSInclude>
+		<JSInclude>/java/ui/Page.js</JSInclude>
+		<JSInclude>/java/ui/controls/Control.js</JSInclude>
+		<JSInclude>/java/ui/controls/ValidatedControl.js</JSInclude>
+		<JSInclude>/java/ui/controls/ajax/AJAXControl.js</JSInclude>
+		<JSInclude>/java/ui/controls/StatusBar.js</JSInclude>
+	</DefaultJSIncludes>
+	<MenuItemsProvider>IRSA.MDM.DAL.SqlServer</MenuItemsProvider>
+	<BoxedControlsClassName>box</BoxedControlsClassName>
+	<ButtonControlsClassName>button</ButtonControlsClassName>
+</WebUIConfig>

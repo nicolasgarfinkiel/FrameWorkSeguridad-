@@ -1,0 +1,470 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED9CE1C1-7CDA-454C-A10E-D721272A6C25}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IRSA.FrameWork.Service</RootNamespace>
+    <AssemblyName>IRSA.FrameWork.Service</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administracion\Applications.aspx" />
+    <Content Include="Administracion\Dialogs\CrearParametro.aspx" />
+    <Content Include="Administracion\Dialogs\SeleccionarGrupo.aspx" />
+    <Content Include="Administracion\Dialogs\SeleccionarPermiso.aspx" />
+    <Content Include="Administracion\Dialogs\SetearParametro.aspx" />
+    <Content Include="Administracion\Groups.aspx" />
+    <Content Include="Administracion\Params.aspx" />
+    <Content Include="Administracion\Permissions.aspx" />
+    <Content Include="Administracion\Users.aspx" />
+    <Content Include="Administracion\UsersGroups.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="dialog.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\accessdenied.gif" />
+    <Content Include="images\background.gif" />
+    <Content Include="images\error.gif" />
+    <Content Include="images\fallout\button_bg.jpg" />
+    <Content Include="images\fallout\button_bg_over.jpg" />
+    <Content Include="images\fallout\doc_bg.jpg" />
+    <Content Include="images\fallout\grid_cell_bg_i1.jpg" />
+    <Content Include="images\fallout\grid_cell_bg_i2.jpg" />
+    <Content Include="images\fallout\grid_cell_bg_p1.jpg" />
+    <Content Include="images\fallout\grid_cell_bg_p2.jpg" />
+    <Content Include="images\fallout\grid_cell_bg_selected.jpg" />
+    <Content Include="images\fallout\label_bg.jpg" />
+    <Content Include="images\fallout\logo.jpg" />
+    <Content Include="images\fallout\menuitem_button_down.gif" />
+    <Content Include="images\fallout\menuitem_button_up.gif" />
+    <Content Include="images\fallout\menu_bg.gif" />
+    <Content Include="images\fallout\menu_border_bottom.gif" />
+    <Content Include="images\fallout\menu_border_left.gif" />
+    <Content Include="images\fallout\menu_border_right.gif" />
+    <Content Include="images\fallout\menu_border_top.gif" />
+    <Content Include="images\fallout\menu_item_bg.gif" />
+    <Content Include="images\fallout\menu_item_bg_left.gif" />
+    <Content Include="images\fallout\menu_item_bg_rigth.gif" />
+    <Content Include="images\fallout\menu_ornament.gif" />
+    <Content Include="images\fallout\statusbar.gif" />
+    <Content Include="images\fallout\statusbar_bottom.gif" />
+    <Content Include="images\fallout\statusbar_left.gif" />
+    <Content Include="images\fallout\statusbar_right.gif" />
+    <Content Include="images\fallout\statusbar_top.gif" />
+    <Content Include="images\fallout\table_bg.jpg" />
+    <Content Include="images\fallout\table_grid_column_header_bg.jpg" />
+    <Content Include="images\fallout\table_grid_foot_bg.jpg" />
+    <Content Include="images\fallout\table_grid_head_bg.jpg" />
+    <Content Include="images\fallout\table_head_bg.jpg" />
+    <Content Include="images\fallout\title.gif" />
+    <Content Include="images\fallout\title_bg.gif" />
+    <Content Include="images\fallout\title_bg_left.gif" />
+    <Content Include="images\fallout\title_bg_right.gif" />
+    <Content Include="images\icons\icon_add.gif" />
+    <Content Include="images\icons\icon_alert.gif" />
+    <Content Include="images\icons\icon_alert_no.gif" />
+    <Content Include="images\icons\icon_alert_ok.gif" />
+    <Content Include="images\icons\icon_cancel.gif" />
+    <Content Include="images\icons\icon_delete.gif" />
+    <Content Include="images\icons\icon_disable.gif" />
+    <Content Include="images\icons\icon_edit.gif" />
+    <Content Include="images\icons\icon_enable.gif" />
+    <Content Include="images\icons\icon_new.gif" />
+    <Content Include="images\icons\icon_ok.gif" />
+    <Content Include="images\icons\icon_pick.gif" />
+    <Content Include="images\icons\icon_remove.gif" />
+    <Content Include="images\icons\icon_save.gif" />
+    <Content Include="images\icons\icon_search.gif" />
+    <Content Include="images\icons\icon_select.gif" />
+    <Content Include="images\icons\icon_small_calendar.gif" />
+    <Content Include="images\icons\icon_small_new.gif" />
+    <Content Include="images\icons\icon_tbl_contract.gif" />
+    <Content Include="images\icons\icon_tbl_expand.gif" />
+    <Content Include="images\icons\icon_user.gif" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logos.gif" />
+    <Content Include="images\table_bg.gif" />
+    <Content Include="images\table_dk_bg.gif" />
+    <Content Include="images\tabs\l_s.gif" />
+    <Content Include="images\tabs\l_u.gif" />
+    <Content Include="images\tabs\m_s_u.gif" />
+    <Content Include="images\tabs\m_u_s.gif" />
+    <Content Include="images\tabs\m_u_u.gif" />
+    <Content Include="images\tabs\r_s.gif" />
+    <Content Include="images\tabs\r_u.gif" />
+    <Content Include="images\title.gif" />
+    <Content Include="java\collections\ArrayList.js" />
+    <Content Include="java\collections\Dictionary.js" />
+    <Content Include="java\getScript.aspx" />
+    <Content Include="java\model\Point.js" />
+    <Content Include="java\model\VentasMessage.js" />
+    <Content Include="java\ui\controls\ajax\AJAXControl.js" />
+    <Content Include="java\ui\controls\ajax\GrillaDeCarga.js" />
+    <Content Include="java\ui\controls\ajax\TaskCount.js" />
+    <Content Include="java\ui\controls\ajax\UserLabel.js" />
+    <Content Include="java\ui\controls\CollapsableTable.js" />
+    <Content Include="java\ui\controls\Control.js" />
+    <Content Include="java\ui\controls\CustomCombo.js" />
+    <Content Include="java\ui\controls\DateSelector.js" />
+    <Content Include="java\ui\controls\jscalendar\calendar-lang.js" />
+    <Content Include="java\ui\controls\jscalendar\calendar-setup.js" />
+    <Content Include="java\ui\controls\jscalendar\calendar.js" />
+    <Content Include="java\ui\controls\jscalendar\theme.css" />
+    <Content Include="java\ui\controls\LinkButton.js" />
+    <Content Include="java\ui\controls\NumericBox.js" />
+    <Content Include="java\ui\controls\RequiredBox.js" />
+    <Content Include="java\ui\controls\RequiredCombo.js" />
+    <Content Include="java\ui\controls\StatusBar.js" />
+    <Content Include="java\ui\controls\TabContainer.js" />
+    <Content Include="java\ui\controls\TabStrip.js" />
+    <Content Include="java\ui\controls\TabStripButton.js" />
+    <Content Include="java\ui\controls\TreeNav.js" />
+    <Content Include="java\ui\controls\ValidatedControl.js" />
+    <Content Include="java\ui\DialogOpener.js" />
+    <Content Include="java\ui\Page.js" />
+    <Content Include="java\util\Format.js" />
+    <Content Include="java\xml\AJAXConnection.js" />
+    <Content Include="java\xml\AJAXConnectionManager.js" />
+    <Content Include="main.css" />
+    <Content Include="Message.aspx" />
+    <Content Include="Multipay\AdministrarClaves.aspx" />
+    <Content Include="Multipay\Default.aspx" />
+    <Content Include="Multipay\Dialog.aspx" />
+    <Content Include="Multipay\Global.asax" />
+    <Content Include="Multipay\images\accessdenied.gif" />
+    <Content Include="Multipay\images\background.gif" />
+    <Content Include="Multipay\images\error.gif" />
+    <Content Include="Multipay\images\head_bg.gif" />
+    <Content Include="Multipay\images\head_title.gif" />
+    <Content Include="Multipay\images\icons\icon_alert.gif" />
+    <Content Include="Multipay\images\icons\icon_alert_no.gif" />
+    <Content Include="Multipay\images\icons\icon_alert_ok.gif" />
+    <Content Include="Multipay\images\icons\icon_cancel.gif" />
+    <Content Include="Multipay\images\icons\icon_delete.gif" />
+    <Content Include="Multipay\images\icons\icon_edit.gif" />
+    <Content Include="Multipay\images\icons\icon_new.gif" />
+    <Content Include="Multipay\images\icons\icon_ok.gif" />
+    <Content Include="Multipay\images\icons\icon_save.gif" />
+    <Content Include="Multipay\images\icons\icon_search.gif" />
+    <Content Include="Multipay\images\icons\icon_user.gif" />
+    <Content Include="Multipay\images\table_bg.gif" />
+    <Content Include="Multipay\images\table_bg_dark.gif" />
+    <Content Include="Multipay\images\table_bg_light.gif" />
+    <Content Include="Multipay\images\table_dk_bg.gif" />
+    <Content Include="Multipay\java\collections\ArrayList.js" />
+    <Content Include="Multipay\java\collections\Dictionary.js" />
+    <Content Include="Multipay\java\getScript.aspx" />
+    <Content Include="Multipay\java\model\Point.js" />
+    <Content Include="Multipay\java\model\VentasMessage.js" />
+    <Content Include="Multipay\java\ui\controls\ajax\AJAXControl.js" />
+    <Content Include="Multipay\java\ui\controls\ajax\GrillaDeCarga.js" />
+    <Content Include="Multipay\java\ui\controls\ajax\TaskCount.js" />
+    <Content Include="Multipay\java\ui\controls\ajax\UserLabel.js" />
+    <Content Include="Multipay\java\ui\controls\CollapsableTable.js" />
+    <Content Include="Multipay\java\ui\controls\Control.js" />
+    <Content Include="Multipay\java\ui\controls\CustomCombo.js" />
+    <Content Include="Multipay\java\ui\controls\DateSelector.js" />
+    <Content Include="Multipay\java\ui\controls\jscalendar\calendar-lang.js" />
+    <Content Include="Multipay\java\ui\controls\jscalendar\calendar-setup.js" />
+    <Content Include="Multipay\java\ui\controls\jscalendar\calendar.js" />
+    <Content Include="Multipay\java\ui\controls\jscalendar\theme.css" />
+    <Content Include="Multipay\java\ui\controls\LinkButton.js" />
+    <Content Include="Multipay\java\ui\controls\NumericBox.js" />
+    <Content Include="Multipay\java\ui\controls\RequiredBox.js" />
+    <Content Include="Multipay\java\ui\controls\RequiredCombo.js" />
+    <Content Include="Multipay\java\ui\controls\StatusBar.js" />
+    <Content Include="Multipay\java\ui\controls\TabContainer.js" />
+    <Content Include="Multipay\java\ui\controls\TabStrip.js" />
+    <Content Include="Multipay\java\ui\controls\TabStripButton.js" />
+    <Content Include="Multipay\java\ui\controls\TreeNav.js" />
+    <Content Include="Multipay\java\ui\controls\ValidatedControl.js" />
+    <Content Include="Multipay\java\ui\DialogOpener.js" />
+    <Content Include="Multipay\java\ui\Page.js" />
+    <Content Include="Multipay\java\util\Format.js" />
+    <Content Include="Multipay\java\xml\AJAXConnection.js" />
+    <Content Include="Multipay\java\xml\AJAXConnectionManager.js" />
+    <Content Include="Multipay\main.css" />
+    <Content Include="Multipay\Message.aspx" />
+    <Content Include="Multipay\Parameters.aspx" />
+    <Content Include="Multipay\WebUIConfig.xml" />
+    <Content Include="start.aspx" />
+    <Content Include="tabs.css" />
+    <Content Include="test.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebServices\SecurityProvider.asmx" />
+    <Content Include="WebUIConfig.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administracion\Applications.aspx.cs">
+      <DependentUpon>Applications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Dialogs\CrearParametro.aspx.cs">
+      <DependentUpon>CrearParametro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Dialogs\SeleccionarGrupo.aspx.cs">
+      <DependentUpon>SeleccionarGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Dialogs\SeleccionarPermiso.aspx.cs">
+      <DependentUpon>SeleccionarPermiso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Dialogs\SetearParametro.aspx.cs">
+      <DependentUpon>SetearParametro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Groups.aspx.cs">
+      <DependentUpon>Groups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Params.aspx.cs">
+      <DependentUpon>Params.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Permissions.aspx.cs">
+      <DependentUpon>Permissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\UsersGroups.aspx.cs">
+      <DependentUpon>UsersGroups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dialog.aspx.cs">
+      <DependentUpon>dialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="java\getScript.aspx.cs">
+      <DependentUpon>getScript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="start.aspx.cs">
+      <DependentUpon>start.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebServices\SecurityProvider.asmx.cs">
+      <DependentUpon>SecurityProvider.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IRSA.Framework.Data.ODBCClient\IRSA.Framework.Data.ODBCClient.csproj">
+      <Project>{DB89D11F-58A2-49DB-B94D-E5FA668EED6C}</Project>
+      <Name>IRSA.Framework.Data.ODBCClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Data.SqlClient\IRSA.Framework.Data.SqlClient.csproj">
+      <Project>{07C1774D-0A60-4ECB-965D-5CF64DDBBB3E}</Project>
+      <Name>IRSA.Framework.Data.SqlClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Logging.Providers.EntLib\IRSA.Framework.Logging.Providers.EntLib.csproj">
+      <Project>{8CE74C86-7978-436B-B907-8F4BA1F19BDD}</Project>
+      <Name>IRSA.Framework.Logging.Providers.EntLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.ReportingServices\IRSA.Framework.ReportingServices.csproj">
+      <Project>{B17948DD-2281-4CFE-A990-9D96ADC4DB8D}</Project>
+      <Name>IRSA.Framework.ReportingServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Security.LDAP\IRSA.Framework.Security.LDAP.csproj">
+      <Project>{2F3C5201-8811-4CD9-A3DD-105FEE5353EA}</Project>
+      <Name>IRSA.Framework.Security.LDAP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Security.Providers.SqlServer\IRSA.Framework.Security.Providers.SqlServer.csproj">
+      <Project>{657FF65B-FEC8-468A-9CC0-35BD07C37A9E}</Project>
+      <Name>IRSA.Framework.Security.Providers.SqlServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Security.UserData.Providers.ActiveDirectory\IRSA.Framework.Security.UserData.Providers.ActiveDirectory.csproj">
+      <Project>{81949101-3959-46D0-AD37-ABCD57911A22}</Project>
+      <Name>IRSA.Framework.Security.UserData.Providers.ActiveDirectory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Services.Web.UI\IRSA.Framework.Services.Web.UI.csproj">
+      <Project>{DEC4CECF-F010-4D77-97AA-F4EA99944EF2}</Project>
+      <Name>IRSA.Framework.Services.Web.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Translation.Providers.SqlServer\IRSA.Framework.Translation.Providers.SqlServer.csproj">
+      <Project>{6709863E-4CF0-442B-9B61-44B7D15F7F83}</Project>
+      <Name>IRSA.Framework.Translation.Providers.SqlServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Web.UI\IRSA.Framework.Web.UI.csproj">
+      <Project>{88A1D31D-4D4D-4509-81B4-492E71ECC539}</Project>
+      <Name>IRSA.Framework.Web.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework.Web\IRSA.Framework.Web.csproj">
+      <Project>{320FB219-AC4C-4BE7-BEF1-0733A4B208E3}</Project>
+      <Name>IRSA.Framework.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRSA.Framework\IRSA.Framework.csproj">
+      <Project>{1E5101FC-D8B2-4F75-8019-4F36BA8055DF}</Project>
+      <Name>IRSA.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Administracion\Applications.aspx.resx">
+      <DependentUpon>Applications.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Dialogs\CrearParametro.aspx.resx">
+      <DependentUpon>CrearParametro.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Dialogs\SeleccionarGrupo.aspx.resx">
+      <DependentUpon>SeleccionarGrupo.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Dialogs\SeleccionarPermiso.aspx.resx">
+      <DependentUpon>SeleccionarPermiso.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Dialogs\SetearParametro.aspx.resx">
+      <DependentUpon>SetearParametro.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Groups.aspx.resx">
+      <DependentUpon>Groups.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Params.aspx.resx">
+      <DependentUpon>Params.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Permissions.aspx.resx">
+      <DependentUpon>Permissions.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\Users.aspx.resx">
+      <DependentUpon>Users.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\UsersGroups.aspx.resx">
+      <DependentUpon>UsersGroups.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialog.aspx.resx">
+      <DependentUpon>dialog.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="java\getScript.aspx.resx">
+      <DependentUpon>getScript.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message.aspx.resx">
+      <DependentUpon>Message.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.aspx.resx">
+      <DependentUpon>start.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.aspx.resx">
+      <DependentUpon>test.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebServices\SecurityProvider.asmx.resx">
+      <DependentUpon>SecurityProvider.asmx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dataconfiguration.config" />
+    <None Include="java\ui\controls\ajax\vssver.scc" />
+    <None Include="java\ui\controls\jscalendar\vssver.scc" />
+    <None Include="java\ui\controls\vssver.scc" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="loggingdistributorconfiguration.config" />
+    <Content Include="loggingconfiguration.config" />
+    <Content Include="Multipay\dataconfiguration.config" />
+    <Content Include="Multipay\loggingconfiguration.config" />
+    <Content Include="Multipay\loggingdistributorconfiguration.config" />
+    <Content Include="Multipay\Web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,40 @@
+8
+
+dir
+4576
+http://srv-ms6-adm:9999/svn/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/Multipay/java/model
+http://srv-ms6-adm:9999/svn
+
+
+
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+
+svn:special svn:externals svn:needs-lock
+
+VentasMessage.js
+file
+
+
+
+
+2006-02-26T21:39:06.000000Z
+51588beccd8524af530372b9ffbfe315
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+Point.js
+file
+
+
+
+
+2006-08-25T18:29:28.000000Z
+f87c892ccd85eb41c577007b7061224a
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+

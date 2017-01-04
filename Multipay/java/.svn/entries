@@ -1,0 +1,43 @@
+8
+
+dir
+4576
+http://srv-ms6-adm:9999/svn/IRSA.FrameWork/trunk/IRSA.FrameWork.Service/Multipay/java
+http://srv-ms6-adm:9999/svn
+
+
+
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+
+svn:special svn:externals svn:needs-lock
+
+xml
+dir
+
+model
+dir
+
+util
+dir
+
+ui
+dir
+
+getScript.aspx
+file
+
+
+
+
+2006-04-06T23:17:42.000000Z
+27d19ccbf0994ebf8fc34759f5faf4f1
+2008-08-11T21:14:35.384653Z
+4552
+mferrari
+
+collections
+dir
+
